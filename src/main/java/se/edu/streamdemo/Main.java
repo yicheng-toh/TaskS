@@ -33,13 +33,13 @@ public class Main {
     }
 
     public static void printAllData(ArrayList<Task> tasksData) {
-        for(Task t: tasksData) {
+        for (Task t : tasksData) {
             System.out.println(t);
         }
     }
 
     public static void printDeadlines(ArrayList<Task> tasksData) {
-        for(Task t: tasksData) {
+        for (Task t : tasksData) {
             if (t instanceof Deadline) {
                 System.out.println(t);
             }
